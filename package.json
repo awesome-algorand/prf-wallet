@@ -1,0 +1,20 @@
+{
+  "name": "prf-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "algosdk": "^2.7.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
